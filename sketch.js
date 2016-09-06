@@ -1,16 +1,10 @@
 var vid;
 var ctrl=false;
 function setup() {
-  createCanvas(960,540);
+  createCanvas(0,0);
   vid=createVideo("comp_1.mp4");
   vid.loop();
-  vid.hide();
-}
-
-
-
-function draw() {
-
-    image(vid,0,0);
 
 }
+
+//what if I added a comment
