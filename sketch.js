@@ -7,7 +7,7 @@ function setup() {
   vid.hide();
 }
 
-
+//what if I added a comment
 
 function draw() {
 
