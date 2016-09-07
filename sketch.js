@@ -6,5 +6,3 @@ function setup() {
   vid.loop();
 
 }
-
-//what if I added a comment
