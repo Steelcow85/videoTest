@@ -4,9 +4,9 @@ function setup() {
   createCanvas(0,0);
   vid=createVideo("countdown_mpeg4.mp4");
   vid.loop();
+  vid.hide();
 
 }
 function draw(){
-  fill(255,0,0);
-  ellipse(50,50,50);
+  image(vid,0,0);
 }
